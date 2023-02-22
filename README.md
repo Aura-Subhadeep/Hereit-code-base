@@ -1,2 +1,3 @@
-<h2>A simple responsive website</h2>
- 
+<h2>Hereit website</h2>
+
+<h3>Created using HTML,CSS,JavaScript.</h3>

@@ -131,7 +131,6 @@ img{
   transition: .4s;
 }
 
-/*=============== NAV ===============*/
 .nav{
   height: var(--header-height);
   display: flex;
@@ -209,17 +208,14 @@ img{
   color: #ffff;
 }
 
-/* Show menu */
 .show-menu{
   right: 0;
 }
 
-/* Change background header */
 .scroll-header{
   box-shadow: 1px 1px 4px hsla(var(--hue), 4%, 15%, .1);
 }
 
-/*=============== HOME ===============*/
 .home{
   padding: 2rem 0 2rem;
 }
@@ -242,8 +238,6 @@ img{
   margin-bottom: var(--mb-2-5);
 }
 
-
-/*=============== BUTTONS ===============*/
 .button{
   display: inline-block;
   background-color: #9a85ba;
@@ -255,7 +249,6 @@ img{
   color: #ffff;
 }
 
-
 .button__icon{
   transition: .3s;
 }
@@ -264,8 +257,6 @@ img{
   display: inline-flex;
   align-items: center;
 }
-
-/*=============== WHY ===============*/
 
 .why{
   padding: 1rem 0 1rem;
@@ -309,8 +300,6 @@ img{
   padding: 1rem 1rem 1rem 1rem;
 }
 
-/*=============== CATEGORY ===============*/
-
 .category{
   padding: 2rem 0 1rem;
 }
@@ -323,7 +312,6 @@ img{
 .category__bg{
   padding: 2rem 2rem 2rem;
 }
-
 
 .category__container{
   gap: 2.5rem;
@@ -362,8 +350,6 @@ img{
 .category__card:hover {
   transform: translateY(-.25rem);
 }
-
-/*=============== QUESTIONS ===============*/
 
 .questions{
   padding: 2rem 0 1rem;
@@ -414,7 +400,6 @@ img{
 .questions__description{
   font-size: var(--smaller-font-size);
   padding: 0 1.25rem 1.25rem 2.5rem;
-
 }
 
 .questions__section{
@@ -432,7 +417,6 @@ img{
 .questions__content{
   overflow: hidden;
   height: 0;
-  
 }
 
 .questions__item,
@@ -448,7 +432,6 @@ img{
   box-shadow: 0 2px 8px hsla(var(--hue), 4%, 15%, .15);
 }
 
-/*Rotate icon, change color of titles and background*/
 .accordion-open .questions__header,
 .accordion-open .questions__content{
   background-color: #9a85ba;
@@ -463,8 +446,6 @@ img{
 .accordion-open .questions__icon{
   transform: rotate(45deg);
 }
-
-/*=============== about ===============*/
 
 .about{
   padding: 0rem 0rem 2rem 0rem;
@@ -496,7 +477,6 @@ img{
   padding: 0.5rem 2rem 3rem;
 }
 
-/*=============== FOOTER ===============*/
 .footer{
     padding: 0rem 0rem;
 }
@@ -525,7 +505,6 @@ img{
   margin-bottom: 1rem;
   font-size: 1.15rem;
 }
-
 
 .footer__title{
   font-size: var(--h3-font-size);
@@ -573,9 +552,6 @@ img{
   column-gap: .75rem;
 }
 
-
-
-/* For small devices */
 @media screen and (max-width: 320px){
   .container{
     margin-left: var(--mb-1);
@@ -593,7 +569,6 @@ img{
     transition: .3s;
     color: #FFF;
   }
-  
 
   .button--flex{
     display: inline-flex;
@@ -658,8 +633,6 @@ img{
     justify-self: center;
     column-gap: .75rem;
   }
-  
-
 }
 
 /* For medium devices */

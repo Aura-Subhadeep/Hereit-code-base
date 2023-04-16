@@ -94,7 +94,6 @@ img{
   height: auto;
 }
 
-/*=============== REUSABLE CSS CLASSES ===============*/
 .section{
   padding: 2.5rem 0 4rem;
 }
@@ -130,7 +129,7 @@ img{
 }
 
 .main{
-  overflow: hidden; /*For animation*/
+  overflow: hidden;
 }
 
 .header{
@@ -144,14 +143,12 @@ img{
   transition: .4s;
 }
 
-/*=============== NAV ===============*/
 .nav{
   height: var(--header-height);
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-
 
 .nav__toggle{
   color: #f8f7fb;
@@ -171,13 +168,11 @@ img{
   color: #f8f7fb;
 }
 
-
 .nav__toggle{
   display: inline-flex;
   font-size: 1.8rem;
   cursor: pointer;
 }
-
 
 @media screen and (max-width: 767px){
   .nav__menu{
@@ -225,17 +220,14 @@ img{
   color: #ffff;
 }
 
-/* Show menu */
 .show-menu{
   right: 0;
 }
 
-/* Change background header */
 .scroll-header{
   box-shadow: 1px 1px 4px hsla(var(--hue), 4%, 15%, .1);
 }
 
-/*=============== CONTACT ===============*/
 .contact__container{
     row-gap: 3.5rem;
   }
@@ -316,7 +308,6 @@ img{
     resize: none;
   }
   
-  /*Input focus move up label*/
   .contact__input:focus + .contact__label{
     top: -.75rem;
     left: 0;
@@ -324,7 +315,6 @@ img{
     z-index: 10;
   }
   
-  /*Input focus sticky top label*/
   .contact__input:not(:placeholder-shown).contact__input:not(:focus) + .contact__label{
     top: -.75rem;
     font-size: var(--smaller-font-size);
@@ -341,13 +331,11 @@ img{
     color: #f2f0f7;
   }
   
-  
   .button--flex{
     display: inline-flex;
     align-items: center;
   }
 
-/*=============== FOOTER ===============*/
 .footer{
     padding: 0rem 0rem;
 }
@@ -360,7 +348,6 @@ img{
   padding-bottom: 1.3rem;
   color: hsl(0deg 0% 6%);
 }
-
 
 .footer__bg{
   background-color: #f2f0f7;
@@ -377,7 +364,6 @@ img{
   margin-bottom: 1rem;
   font-size: 1.15rem;
 }
-
 
 .footer__title{
   font-size: var(--h3-font-size);
@@ -456,7 +442,6 @@ img{
 
 }
 
-/* For large devices */
 @media screen and (min-width: 992px){
   .container{
     margin-left: auto;

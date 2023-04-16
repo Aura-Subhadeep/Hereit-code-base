@@ -1,11 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
 
-/*=============== VARIABLES CSS ===============*/
 :root {
   --header-height: 3.5rem; /*56px*/
 
   /*========== Colors ==========*/
-  /*Color mode HSL(hue, saturation, lightness)*/
   --hue: 152;
   --first-color: hsl(259deg 100% 88%);
   --first-color-alt: hsl(var(--hue), 24%, 28%);
@@ -18,7 +16,6 @@
   --container-color: #FFF;
 
 /*========== Font and typography ==========*/
-  /*.5rem = 8px | 1rem = 16px ...*/
   --body-font: 'Poppins', sans-serif;
   --big-font-size: 2rem;
   --h1-font-size: 1.5rem;
@@ -33,7 +30,6 @@
   --font-semi-bold: 600;
 
   /*========== Margenes Bottom ==========*/
-  /*.5rem = 8px | 1rem = 16px ...*/
   --mb-0-5: .5rem;
   --mb-0-75: .75rem;
   --mb-1: 1rem;
@@ -41,12 +37,10 @@
   --mb-2: 2rem;
   --mb-2-5: 2.5rem;
 
-  /*========== z index ==========*/
   --z-tooltip: 10;
   --z-fixed: 100;
 }
 
-/* Responsive typography */
 @media screen and (min-width: 968px) {
   :root {
     --big-font-size: 3.5rem;
@@ -59,7 +53,6 @@
   }
 }
 
-/*=============== BASE ===============*/
 *{
   box-sizing: border-box; 
   padding: 0;
@@ -146,7 +139,6 @@ img{
   overflow: hidden; /*For animation*/
 }
 
-/*=============== HEADER ===============*/
 .header{
   width: 100%;
   background-color: #9a85ba;

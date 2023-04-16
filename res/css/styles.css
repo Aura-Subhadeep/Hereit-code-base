@@ -635,7 +635,6 @@ img{
   }
 }
 
-/* For medium devices */
 @media screen and (min-width: 355px){
   .button{
     display: inline-block;
@@ -647,23 +646,20 @@ img{
   }
 }
 
-
-
-/* For medium devices */
 @media screen and (min-width: 370px){
   .button{
     display: inline-block;
     padding: 0.8rem 8.45rem;
   }
 }
-/* For medium devices */
+
 @media screen and (min-width: 380px){
   .button{
     display: inline-block;
     padding: 0.8rem 8.9rem;
   }
 }
-/* For medium devices */
+
 @media screen and (min-width: 400px){
   .button{
     display: inline-block;
@@ -671,8 +667,6 @@ img{
   }
 }
 
-
-/* For medium devices */
 @media screen and (min-width: 576px){
   .home__img{
     width: 230px;
@@ -723,7 +717,6 @@ img{
     font-weight: var(--body-font);
     font-size: 1rem;
     transition: .3s;
-
   }
 
   .why__img{
@@ -829,8 +822,6 @@ img{
   .footer__social-link:hover{
     transform: translateY(-.25rem);
   }
-  
-
 }
 
 @media screen and (min-width: 593px){
@@ -844,8 +835,6 @@ img{
     justify-self: center;
     column-gap: .75rem;
   }
-  
-
 }
 
 @media screen and (min-width: 767px){
@@ -912,11 +901,8 @@ img{
     justify-self: center;
     column-gap: .75rem;
   }
-  
-
 }
 
-/* For large devices */
 @media screen and (min-width: 992px){
   .container{
     margin-left: auto;
@@ -990,7 +976,6 @@ img{
   .questions__container{
     padding: 1rem 0 2.5rem;
     grid-template-columns: repeat(2, 1fr);
-
   }
 
   .questions__title{
@@ -1012,8 +997,6 @@ img{
   .questions__data{
     padding: 4rem 0 5rem;
   }
-
-
 }
 
 

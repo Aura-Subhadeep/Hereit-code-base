@@ -133,7 +133,6 @@ img{
   transition: .4s;
 }
 
-/*=============== NAV ===============*/
 .nav{
   height: var(--header-height);
   display: flex;
@@ -211,17 +210,14 @@ img{
   color: #ffff;
 }
 
-/* Show menu */
 .show-menu{
   right: 0;
 }
 
-/* Change background header */
 .scroll-header{
   box-shadow: 1px 1px 4px hsla(var(--hue), 4%, 15%, .1);
 }
 
-/*=============== HOME ===============*/
 .explore{
   padding: 1.3rem 0 0rem;
 }
@@ -244,7 +240,6 @@ img{
   margin-bottom: var(--mb-2-5);
 }
 
-/*=============== STEPS ===============*/
 .steps__bg{
   background-color: #ffff;
   padding: 1rem 1rem 2rem;
@@ -264,7 +259,6 @@ img{
   color: #58466c;
 }
 
-
 .yt__video__edit{
 
   height: 200px;
@@ -281,7 +275,6 @@ img{
 .step__description{
   color: #0f0f0f;
 }
-
 
 .steps__card-title{
   font-size: var(--h3-font-size);
@@ -300,7 +293,7 @@ img{
 .steps__card:hover .steps__card-number{
   transform: translateY(-.25rem);
 }
-/*=============== FOOTER ===============*/
+
 .footer{
     padding: 0rem 0rem;
 }
@@ -312,7 +305,6 @@ img{
   text-align: center;
   padding-bottom: 1.3rem;
 }
-
 
 .footer__bg{
   background-color: #f2f0f7;
@@ -329,7 +321,6 @@ img{
   margin-bottom: 1rem;
   font-size: 1.15rem;
 }
-
 
 .footer__title{
   font-size: var(--h3-font-size);
@@ -417,7 +408,6 @@ img{
 
 }
 
-/* For large devices */
 @media screen and (min-width: 992px){
   .container{
     margin-left: auto;
